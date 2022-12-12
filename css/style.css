@@ -1,0 +1,46 @@
+body {
+  padding-top: 150px;
+}
+.submit-area {
+  width: 750px;
+  margin-left: 300px;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.submit-areaTwo {
+  justify-content: center;
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+#transaction-area {
+  display: none;
+}
+
+.deposite {
+  margin: 0 20px;
+  padding: 42px;
+  border-radius: 8px;
+  color: white;
+  background-color: blueviolet;
+}
+.widthdrow {
+  margin: 0 20px;
+  padding: 42px;
+  border-radius: 8px;
+  color: white;
+  background-color: orange;
+}
+.balance {
+  margin: 0 20px;
+  padding: 42px;
+  border-radius: 8px;
+  color: white;
+  background-color: tomato;
+}
