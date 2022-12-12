@@ -124,8 +124,14 @@
       const widthdrowBtn = document.getElementById("addWidthdrow");
       widthdrowBtn.addEventListener("click", function () {
         const widthdrowNumber = getInputNumber("widthdrowAmount");
+
+        updateSpanText("currentWidthdrow", widthdrowNumber);
+        updateSpanText("currentBalance", -1 * widthdrowNumber);
+
+        document.getElementById("widthdrowAmount").value = "";
       });
 
+      
       function getInputNumber(id) {
         const amount = document.getElementById(id).value;
         const amountNumber = parseFloat(amount);
